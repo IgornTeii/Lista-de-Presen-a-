@@ -14,6 +14,8 @@ public abstract class Pessoa {
   //Método abstrato cadastrar: será implementado pelas subclasses.
   public abstract void cadastrar();
 
+  public abstract void registrarPresenca();
+
   //Getters e setters para nome, idade e sexo. Estes permitem o acesso seguro aos campos.
   public String getNome() {
     return nome;
